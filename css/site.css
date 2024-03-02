@@ -147,3 +147,12 @@ button{
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
+
+@media (max-width: 600px) {
+  h1{
+    font-size: 2rem;
+  }
+  main{
+    padding:0.5rem;
+  }
+}
