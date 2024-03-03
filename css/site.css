@@ -1,124 +1,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-family: 'Inter', sans-serif;
   color: #333;
 }
 
 
-header{
-  width:100%;
+header {
+  width: 100%;
   border-bottom: 6px solid #333;
 }
 
-.flex{
+.flex {
   display: flex;
   align-items: center;
 }
 
-img{
-  width:100%;
+img {
+  width: 100%;
 }
 
-.logo{
-  width:8rem;
+.logo {
+  width: 8rem;
 }
 
-h1{
+h1 {
   font-size: 10vw;
   text-transform: uppercase;
 }
 
-main{
-  padding:2rem;
+main {
+  padding: 2rem;
 }
 
-p{
+p {
   margin-bottom: 1rem;
   line-height: 1.5;
 }
 
-.list{
+.list {
   list-style: none;
   padding: 0;
-  width:100%;
-  margin-top:2rem;
+  width: 100%;
+  margin-top: 2rem;
 }
 
-.list li{
+.list li {
   padding: 1rem;
   margin: 1rem 0;
   border: 6px solid #333;
 }
 
-.list li:hover{
+.list li:hover {
   background-color: #333;
   color: #fff;
   transition: 0.3s;
   cursor: pointer;
 }
 
-.list li a:nth-child(odd){
+.list li a:nth-child(odd) {
   background-color: coral;
 }
 
-.list li:nth-child(even){
+.list li:nth-child(even) {
   background-color: rgb(188 149 212);
 }
 
-.header-title{
+.header-title {
   font-size: 2rem;
   margin-bottom: 1rem;
   background-color: coral;
   border-bottom: 6px solid #333;
-  padding:2rem;
+  padding: 2rem;
+  text-decoration: none;
+  color: #f3f3f3;
 }
 
-.list a{
+.header-title a {
+  color: #ffffff;
+}
+
+.list a {
   text-decoration: none;
   color: #333;
 }
 
-article{
-  max-width:630px;
-  margin:0 auto;
-  margin-bottom:1rem;
+article {
+  max-width: 630px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
-article a{
+article a {
   border-top: 6px solid #333;
   font-size: 1.5rem;
-  width:100%;
-  display:block;
+  width: 100%;
+  display: block;
 }
 
-.idea{
+.idea {
   opacity: 0.8;
-  border:dashed 6px #333!important;
+  border: dashed 6px #333 !important;
 }
 
-h3{
+h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
 
-.intro{
+.intro {
   border: 6px solid #333;
   border-radius: 1rem;
-  padding:1rem;
+  padding: 1rem;
 }
 
-mark{
+mark {
   background-color: coral;
   color: #fff;
-  padding:0.1rem;
+  padding: 0.1rem;
   opacity: 0.8;
 }
 
@@ -127,7 +133,7 @@ mark{
   color: #fff;
 }
 
-button{
+button {
   padding: 1rem 2rem;
   border: none;
   background-color: coral;
@@ -138,21 +144,23 @@ button{
   border-radius: 1rem;
 }
 
-.blue{
+.blue {
   background-color: blue;
-  color:white;
+  color: white;
 }
 
-.big-list{
+.big-list {
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  padding: 2rem;
 }
 
 @media (max-width: 600px) {
-  h1{
+  h1 {
     font-size: 2rem;
   }
-  main{
-    padding:0.8rem;
+
+  main {
+    padding: 0.8rem;
   }
 }
